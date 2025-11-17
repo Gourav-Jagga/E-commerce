@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration>
+	<Appenders>
+		<RollingFile name="DefaultRollingFileAppender"
+			fileName="logs/app.log"
+			filePattern="logs/$${date:yyyy-MM}/app-%d{MM-dd-yyyy}-%i.log.gz">
+			<PatternLayout>
+				<Pattern>
+					%d [%t] [%p] %c - %msg%n</Pattern>
+			</PatternLayout>
+			<Policies>
+				<OnStartupTriggeringPolicy />
+				<TimeBasedTriggeringPolicy />
+				<SizeBasedTriggeringPolicy size="50 MB" />
+			</Policies>
+			<DefaultRolloverStrategy max="20" />
+		</RollingFile>
+		<Console name="Console" target="SYSTEM_OUT">
+			<!--  <PatternLayout pattern="%d{HH:mm:ss.SSS} [%t] %-5level
+			%logger{36} - %msg%n" />-->
+			<PatternLayout>
+				<Pattern>
+					%d [%t] [%p] %c - %msg%n</Pattern>
+			</PatternLayout>
+		</Console>
+		<RollingFile name="InternalRollingFileAppender"
+			fileName="logs/Internal.log"
+			filePattern="logs/$${date:yyyy-MM}/appInternal-%d{MM-dd-yyyy}-%i.log.gz">
+			<PatternLayout>
+				<Pattern>
+					%d [%t] [%p] %c - %msg%n</Pattern>
+			</PatternLayout>
+			<Policies>
+				<OnStartupTriggeringPolicy />
+				<TimeBasedTriggeringPolicy />
+				<SizeBasedTriggeringPolicy size="50 MB" />
+			</Policies>
+			<DefaultRolloverStrategy max="20" />
+		</RollingFile>
+
+	</Appenders>
+
+	<Loggers>
+		<Logger name="*" level="DEBUG" additivity="false">
+			<AppenderRef ref="InternalRollingFileAppender" level="DEBUG" />
+		</Logger>
+		<Logger name="com.dev" level="DEBUG" additivity="false">
+			<AppenderRef ref="DefaultRollingFileAppender" level="DEBUG" />
+		</Logger>
+
+		<Root level="DEBUG" additivity="false">
+			<AppenderRef ref="InternalRollingFileAppender" level="DEBUG" />
+			<AppenderRef ref="Console" level="INFO" />
+		</Root>
+	</Loggers>
+</Configuration>
+

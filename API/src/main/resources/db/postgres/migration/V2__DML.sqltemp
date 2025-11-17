@@ -1,0 +1,14 @@
+INSERT INTO gender (id, changed_on, created_on, description, entity_status, gender)
+VALUES (2, NULL, NULL, 'FEMALE', 'ACTIVE', 'FEMALE');
+INSERT INTO gender (id, changed_on, created_on, description, entity_status, gender)
+VALUES (3, NULL, NULL, 'SYSTEM', 'ACTIVE', 'SYSTEM');
+INSERT INTO gender (id, changed_on, created_on, description, entity_status, gender)
+VALUES (1, NULL, NULL, 'MALE', 'ACTIVE', 'MALE');
+INSERT INTO identity_type (id, changed_on, created_on, description, entity_status, identity_code)
+VALUES (2, NULL, NULL, NULL, 'ACTIVE', 'SYS');
+INSERT INTO identity_type (id, changed_on, created_on, description, entity_status, identity_code)
+VALUES (1, NULL, NULL, NULL, 'ACTIVE', 'EMP');
+INSERT INTO "identity" (id, changed_on, created_on, description, entity_status, date_of_birth, first_name, last_name,
+                        gender, "type")
+VALUES (1, NULL, NULL, 'contains access over all application', 'ACTIVE', '2025-09-29 01:10:41.117', 'Admin', 'USER',
+        'SYSTEM', 'EMP');

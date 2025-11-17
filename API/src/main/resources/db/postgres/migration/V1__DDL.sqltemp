@@ -1,0 +1,52 @@
+CREATE TABLE gender (
+                               id int8 NOT NULL,
+                               changed_on timestamp(6) NULL,
+                               created_on timestamp(6) NULL,
+                               description varchar(1000) NULL,
+                               entity_status varchar(255) NULL,
+                               gender varchar(20) NOT NULL,
+                               CONSTRAINT gender_entity_status_check CHECK (((entity_status)::text = ANY ((ARRAY['ACTIVE'::character varying, 'INACTIVE'::character varying, 'DELETED'::character varying])::text[]))),
+	CONSTRAINT gender_pkey PRIMARY KEY (id),
+	CONSTRAINT uk1urtpm41m63k17dqaa5am1o2l UNIQUE (gender)
+);
+CREATE TABLE identity_type (
+                                      id int8 NOT NULL,
+                                      changed_on timestamp(6) NULL,
+                                      created_on timestamp(6) NULL,
+                                      description varchar(1000) NULL,
+                                      entity_status varchar(255) NULL,
+                                      identity_code varchar(50) NOT NULL,
+                                      CONSTRAINT identity_type_entity_status_check CHECK (((entity_status)::text = ANY ((ARRAY['ACTIVE'::character varying, 'INACTIVE'::character varying, 'DELETED'::character varying])::text[]))),
+	CONSTRAINT identity_type_pkey PRIMARY KEY (id),
+	CONSTRAINT ukeej8cgni725elojfbw5jwy1ia UNIQUE (identity_code)
+);
+CREATE TABLE "identity" (
+                                   id int8 NOT NULL,
+                                   changed_on timestamp(6) NULL,
+                                   created_on timestamp(6) NULL,
+                                   description varchar(1000) NULL,
+                                   entity_status varchar(255) NULL,
+                                   date_of_birth timestamp(6) NOT NULL,
+                                   first_name varchar(50) NOT NULL,
+                                   last_name varchar(50) NOT NULL,
+                                   gender varchar(20) NOT NULL,
+                                   "type" varchar(50) NOT NULL,
+                                   CONSTRAINT identity_entity_status_check CHECK (((entity_status)::text = ANY ((ARRAY['ACTIVE'::character varying, 'INACTIVE'::character varying, 'DELETED'::character varying])::text[]))),
+	CONSTRAINT identity_pkey PRIMARY KEY (id),
+	CONSTRAINT fk3qje088r4tap0lo5l7chm7muh FOREIGN KEY ("type") REFERENCES public.identity_type(identity_code),
+	CONSTRAINT fk9brbpk9jvigrixqwf2khwf61j FOREIGN KEY (gender) REFERENCES public.gender(gender)
+);
+CREATE TABLE users (
+                              id int8 NOT NULL,
+                              changed_on timestamp(6) NULL,
+                              created_on timestamp(6) NULL,
+                              description varchar(1000) NULL,
+                              entity_status varchar(255) NULL,
+                              "password" varchar(255) NULL,
+                              username varchar(255) NULL,
+                              identity_id int8 NOT NULL,
+                              CONSTRAINT uk19vywygog85fl7f6t9dstiga8 UNIQUE (identity_id),
+                              CONSTRAINT users_entity_status_check CHECK (((entity_status)::text = ANY ((ARRAY['ACTIVE'::character varying, 'INACTIVE'::character varying, 'DELETED'::character varying])::text[]))),
+	CONSTRAINT users_pkey PRIMARY KEY (id),
+	CONSTRAINT fkonyto3ilor6mffa7bu6lh1qe FOREIGN KEY (identity_id) REFERENCES public."identity"(id)
+);

@@ -1,0 +1,33 @@
+app:
+  db:
+    schema: ecommerce2
+spring:
+  datasource:
+    username: alert
+    driver-class-name: org.postgresql.Driver
+    password: alert123
+    url: jdbc:postgresql://localhost:5432/Platform
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        default_schema: ${app.db.schema}
+  flyway:
+    enabled: true
+    locations: classpath:db/postgres/migration
+    default-schema: ${app.db.schema}
+    schemas: ${app.db.schema}
+    create-schemas: true
+    baseline-on-migrate: true
+    validate-migration-naming: true
+    ignore-migration-patterns: "*:pending"
+    database-type: POSTGRES
+  data:
+    redis:
+      host: "localhost"
+      port: 6379
+      timeout: 600000
+logging:
+  level:
+    org.flywaydb: DEBUG
