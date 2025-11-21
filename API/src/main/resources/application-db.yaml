@@ -3,9 +3,9 @@ app:
     schema: ecommerce2
 spring:
   datasource:
-    username: alert
+    username: root
     driver-class-name: org.postgresql.Driver
-    password: alert123
+    password: root
     url: jdbc:postgresql://localhost:5432/Platform
   jpa:
     hibernate:

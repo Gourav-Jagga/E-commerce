@@ -1,8 +1,39 @@
+spring:
+  application:
+    name: my-app-name
+
 server:
   port: 8080
+  address: 0.0.0.0
+
 management:
   endpoints:
     web:
       exposure:
-        include: health, prometheus, metrics
+        include: "*"
+  endpoint:
+    prometheus:
+      enabled: true
+    chaosmonkey:
+      enabled: true
 
+  metrics:
+    distribution:
+      percentiles:
+        http.server.requests:
+          - 0.5
+          - 0.95
+          - 0.99
+      percentiles-histogram:
+        http.server.requests: true
+    web:
+      server:
+        request:
+          auto-time-requests: true       # keep if needed for your Boot version
+    tags:
+      application: ${spring.application.name}
+
+  prometheus:
+    metrics:
+      export:
+        enabled: true
