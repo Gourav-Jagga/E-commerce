@@ -15,8 +15,8 @@ public class BaseEntity {
     @CustomID
     @Id
     @Column(name = "ID", nullable = false, updatable = false, unique = true, length = 36)
-
     protected Long id;
+
     @Column(name = "ENTITY_STATUS")
     protected Integer entityStatus = 0;
 

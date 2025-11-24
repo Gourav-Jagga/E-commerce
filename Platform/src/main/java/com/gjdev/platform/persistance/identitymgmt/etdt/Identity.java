@@ -10,6 +10,7 @@ import java.util.Date;
 @Entity
 @Buildiable
 public class Identity extends BaseEntity {
+
     @Column(name = "FIRST_NAME", nullable = false, length = 50)
     protected String firstname;
 
@@ -17,16 +18,17 @@ public class Identity extends BaseEntity {
     protected String lastName;
 
     @ManyToOne(fetch = FetchType.EAGER)
-    @JoinColumn(name = "GENDER", foreignKey = @ForeignKey, updatable = false, insertable = false, referencedColumnName = "GENDER", nullable = false)
+    @JoinColumn(name = "GENDER", foreignKey = @ForeignKey, updatable = false, insertable = false, referencedColumnName = "Name", nullable = false)
     protected Gender gender;
 
     @Column(name = "DATE_OF_BIRTH", nullable = false)
     protected Date DOB;
 
     @ManyToOne(fetch = FetchType.EAGER)
-    @JoinColumn(name = "TYPE", foreignKey = @ForeignKey, updatable = false, insertable = false, referencedColumnName = "IDENTITY_CODE", nullable = false)
+    @JoinColumn(name = "TYPE", foreignKey = @ForeignKey, updatable = false, insertable = false, referencedColumnName = "NAME", nullable = false)
     protected IdentityType type;
 
+    @Column(name = "MAIL", unique = true)
     protected String mail;
 
     public String getMail() {

@@ -1,11 +1,13 @@
 package com.gjdev.platform.persistance.identitymgmt.etdt;
 
+import com.gjdev.platform.persistance.base.etdt.BaseEntity;
+
 import java.io.Serializable;
 
 /**
  * DTO for {@link Users}
  */
-public class UsersDto implements Serializable {
+public class UsersDto extends BaseEntity implements Serializable {
     private static final long serialVersionUID = 2689203776581770738L;
     private String Password;
     private IdentityDto identityId;

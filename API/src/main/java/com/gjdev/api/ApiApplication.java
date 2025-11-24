@@ -12,7 +12,8 @@ import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 @EnableCaching
 @ComponentScan(basePackages = {
         "com.gjdev.platform",
-        "com.gjdev.api"
+        "com.gjdev.api",
+        "com.gjdev.db"
 })
 @EnableJpaRepositories(
         basePackages = "com.gjdev.platform.persistance",

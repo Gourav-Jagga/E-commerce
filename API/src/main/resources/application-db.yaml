@@ -1,6 +1,8 @@
 app:
   db:
-    schema: ecommerce2
+    schema: ecommerce
+  metaData:
+    mode: update
 spring:
   datasource:
     username: alert
@@ -14,7 +16,7 @@ spring:
       hibernate:
         default_schema: ${app.db.schema}
   flyway:
-    enabled: true
+    enabled: false
     locations: classpath:db/postgres/migration
     default-schema: ${app.db.schema}
     schemas: ${app.db.schema}
