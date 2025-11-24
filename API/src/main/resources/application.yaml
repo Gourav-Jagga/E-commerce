@@ -2,4 +2,4 @@ spring:
   application:
     name: API
   profiles:
-    active: db, common
+    active: db, common, chaos-monkey
