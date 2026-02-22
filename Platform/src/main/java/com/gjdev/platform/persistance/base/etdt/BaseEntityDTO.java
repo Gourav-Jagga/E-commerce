@@ -1,10 +1,17 @@
 package com.gjdev.platform.persistance.base.etdt;
 
+import com.gjdev.platform.idgenerators.CustomID;
+import jakarta.persistence.Column;
+import jakarta.persistence.Id;
+import jakarta.persistence.MappedSuperclass;
+import org.hibernate.annotations.CreationTimestamp;
+import org.hibernate.annotations.UpdateTimestamp;
+
 import java.util.Date;
 
 public class BaseEntityDTO {
-
     protected Long id;
+
     protected Integer entityStatus = 0;
 
     protected Date changedOn;

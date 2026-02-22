@@ -5,6 +5,6 @@ import org.mapstruct.Mapper;
 import org.mapstruct.factory.Mappers;
 
 @Mapper
-public interface IdentityMapper extends BaseMapper<Identity,IdentityDto> {
+public interface IdentityMapper extends BaseMapper<Identity,IdentityDTO> {
     IdentityMapper INSTANCE = Mappers.getMapper(IdentityMapper.class);
 }

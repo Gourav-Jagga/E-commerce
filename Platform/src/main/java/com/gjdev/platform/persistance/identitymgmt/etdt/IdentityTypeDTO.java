@@ -1,16 +1,10 @@
 package com.gjdev.platform.persistance.identitymgmt.etdt;
 
 
-import com.gjdev.platform.persistance.base.etdt.BaseEntityDTO;
+import com.gjdev.platform.persistance.base.etdt.NamedEntityDTO;
+import jakarta.persistence.Entity;
+import jakarta.persistence.Table;
 
-public class IdentityTypeDTO extends BaseEntityDTO {
-    protected String identityCode;
+public class IdentityTypeDTO extends NamedEntityDTO {
 
-    public String getIdentityCode() {
-        return identityCode;
-    }
-
-    public void setIdentityCode(String identityCode) {
-        this.identityCode = identityCode;
-    }
 }

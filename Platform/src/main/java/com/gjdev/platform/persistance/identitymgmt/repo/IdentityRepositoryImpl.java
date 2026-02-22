@@ -7,9 +7,9 @@ import com.gjdev.platform.utility.Builder;
 import jakarta.persistence.EntityManager;
 import org.springframework.stereotype.Repository;
 @Repository
-public class IdentityRespositoryImpl extends BaseRepositoryImpl<Identity, Long> implements IdentityRepository{
+public class IdentityRepositoryImpl extends BaseRepositoryImpl<Identity, Long> implements IdentityRepository{
 
-    public IdentityRespositoryImpl( EntityManager entityManager) {
+    public IdentityRepositoryImpl( EntityManager entityManager) {
         super(Identity.class, entityManager);
     }
     public Identity findByName(){

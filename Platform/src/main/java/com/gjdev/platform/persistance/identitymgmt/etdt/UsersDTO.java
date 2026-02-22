@@ -2,6 +2,7 @@ package com.gjdev.platform.persistance.identitymgmt.etdt;
 
 
 import com.gjdev.platform.persistance.base.etdt.BaseEntityDTO;
+import jakarta.persistence.*;
 
 public class UsersDTO extends BaseEntityDTO {
     protected String Password;

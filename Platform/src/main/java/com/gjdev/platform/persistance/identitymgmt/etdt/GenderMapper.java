@@ -5,6 +5,6 @@ import org.mapstruct.Mapper;
 import org.mapstruct.factory.Mappers;
 
 @Mapper
-public interface GenderMapper extends BaseMapper<Gender,GenderDto> {
+public interface GenderMapper extends BaseMapper<Gender,GenderDTO> {
     GenderMapper INSTANCE = Mappers.getMapper(GenderMapper.class);
 }

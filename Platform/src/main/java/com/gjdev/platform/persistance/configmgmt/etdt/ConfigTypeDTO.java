@@ -1,6 +1,7 @@
 package com.gjdev.platform.persistance.configmgmt.etdt;
 
 import com.gjdev.platform.persistance.base.etdt.BaseEntityDTO;
+import jakarta.persistence.Entity;
 
 public class ConfigTypeDTO<T> extends BaseEntityDTO {
 

@@ -1,10 +1,7 @@
 package com.gjdev.platform.persistance.configmgmt.etdt;
 
-import com.gjdev.platform.persistance.base.etdt.BaseEntity;
 import com.gjdev.platform.persistance.base.etdt.NamedEntity;
-import jakarta.persistence.Column;
-import jakarta.persistence.Entity;
-import jakarta.persistence.Table;
+import jakarta.persistence.*;
 
 @Entity
 @Table(name = "CONFIG")

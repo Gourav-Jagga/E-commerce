@@ -2,10 +2,13 @@ package com.gjdev.platform.persistance.identitymgmt.etdt;
 
 
 import com.gjdev.platform.persistance.base.etdt.BaseEntityDTO;
+import com.gjdev.platform.utility.Buildiable;
+import jakarta.persistence.*;
 
 import java.util.Date;
 
 public class IdentityDTO extends BaseEntityDTO {
+
     protected String firstname;
 
     protected String lastName;

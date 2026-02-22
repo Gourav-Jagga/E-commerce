@@ -5,44 +5,42 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0c677e1d-dcc7-48ef-a91e-d6f00674b8d7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/E-commerce.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/mappingPluginState.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DevScritps/DevScritps.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DevScritps/IOUtility.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DevScritps/generateDtos.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Platform/src/main/java/com/gjdev/platform/persistance/configmgmt/etdt/ConfigGroup.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Platform/src/main/java/com/gjdev/platform/persistance/configmgmt/etdt/ConfigGroupDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Platform/src/main/java/com/gjdev/platform/persistance/configmgmt/etdt/ConfigType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Platform/src/main/java/com/gjdev/platform/persistance/configmgmt/etdt/ConfigTypeDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Platform/src/main/java/com/gjdev/platform/persistance/identitymgmt/etdt/GenderDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Platform/src/main/java/com/gjdev/platform/persistance/identitymgmt/etdt/IdentityDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Platform/src/main/java/com/gjdev/platform/persistance/identitymgmt/etdt/IdentityTypeDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Platform/src/main/java/com/gjdev/platform/persistance/identitymgmt/etdt/UsersDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/E-Commerce.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DevScritps/generateRepositories.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/API/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/API/docker-compose.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/API/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/API/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/API/src/main/java/com/gjdev/api/ApiApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/API/src/main/java/com/gjdev/api/ApiApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/API/src/main/java/com/gjdev/api/web/ApiResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/API/src/main/java/com/gjdev/api/web/ApiResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/API/src/main/java/com/gjdev/api/web/idnmgmt/Controller/IdentityController.java" beforeDir="false" afterPath="$PROJECT_DIR$/API/src/main/java/com/gjdev/api/web/idnmgmt/Controller/IdentityController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Platform/src/main/java/com/gjdev/platform/persistance/base/etdt/BaseEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/Platform/src/main/java/com/gjdev/platform/persistance/base/etdt/BaseEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Platform/src/main/java/com/gjdev/platform/persistance/base/etdt/BaseEntityDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/Platform/src/main/java/com/gjdev/platform/persistance/base/etdt/BaseEntityDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DevScritps/DevScritps.iml" beforeDir="false" afterPath="$PROJECT_DIR$/DevScritps/DevScritps.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Platform/src/main/java/com/gjdev/platform/persistance/base/etdt/BaseEntityDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Platform/src/main/java/com/gjdev/platform/persistance/base/etdt/NamedEntityDto.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Platform/src/main/java/com/gjdev/platform/persistance/configmgmt/etdt/Config.java" beforeDir="false" afterPath="$PROJECT_DIR$/Platform/src/main/java/com/gjdev/platform/persistance/configmgmt/etdt/Config.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Platform/src/main/java/com/gjdev/platform/persistance/configmgmt/repo/ConfigRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/Platform/src/main/java/com/gjdev/platform/persistance/configmgmt/repo/ConfigRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Platform/src/main/java/com/gjdev/platform/persistance/identitymgmt/etdt/GenderDto.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Platform/src/main/java/com/gjdev/platform/persistance/identitymgmt/etdt/IdentityDto.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Platform/src/main/java/com/gjdev/platform/persistance/identitymgmt/etdt/IdentityTypeDto.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Platform/src/main/java/com/gjdev/platform/persistance/identitymgmt/etdt/UsersDto.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Platform/src/main/java/com/gjdev/platform/persistance/identitymgmt/repo/IdentityRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/Platform/src/main/java/com/gjdev/platform/persistance/identitymgmt/repo/IdentityRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Platform/src/main/java/com/gjdev/platform/persistance/identitymgmt/repo/IdentityTypeRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/Platform/src/main/java/com/gjdev/platform/persistance/identitymgmt/repo/IdentityTypeRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Platform/src/main/java/com/gjdev/platform/persistance/identitymgmt/repo/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/Platform/src/main/java/com/gjdev/platform/persistance/identitymgmt/repo/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Platform/src/main/java/com/gjdev/platform/persistance/configmgmt/etdt/ConfigDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Platform/src/main/java/com/gjdev/platform/persistance/configmgmt/etdt/ConfigGroupDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Platform/src/main/java/com/gjdev/platform/persistance/configmgmt/etdt/ConfigTypeDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Platform/src/main/java/com/gjdev/platform/persistance/configmgmt/repo/ConfigRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Platform/src/main/java/com/gjdev/platform/persistance/configmgmt/repo/ConfigRepositoryImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Platform/src/main/java/com/gjdev/platform/persistance/identitymgmt/etdt/GenderDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Platform/src/main/java/com/gjdev/platform/persistance/identitymgmt/etdt/GenderMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/Platform/src/main/java/com/gjdev/platform/persistance/identitymgmt/etdt/GenderMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Platform/src/main/java/com/gjdev/platform/persistance/identitymgmt/etdt/IdentityDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Platform/src/main/java/com/gjdev/platform/persistance/identitymgmt/etdt/IdentityMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/Platform/src/main/java/com/gjdev/platform/persistance/identitymgmt/etdt/IdentityMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Platform/src/main/java/com/gjdev/platform/persistance/identitymgmt/etdt/IdentityTypeDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Platform/src/main/java/com/gjdev/platform/persistance/identitymgmt/etdt/IdentityTypeMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/Platform/src/main/java/com/gjdev/platform/persistance/identitymgmt/etdt/IdentityTypeMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Platform/src/main/java/com/gjdev/platform/persistance/identitymgmt/etdt/UsersDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Platform/src/main/java/com/gjdev/platform/persistance/identitymgmt/etdt/UsersMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/Platform/src/main/java/com/gjdev/platform/persistance/identitymgmt/etdt/UsersMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Platform/src/main/java/com/gjdev/platform/persistance/identitymgmt/repo/IdentityRespositoryImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Platform/src/main/java/com/gjdev/platform/persistance/identitymgmt/repo/UserRespositoryImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Platform/src/main/java/com/gjdev/platform/persistance/secutirymgmt/etdt/FieldAuth.java" beforeDir="false" afterPath="$PROJECT_DIR$/Platform/src/main/java/com/gjdev/platform/persistance/secutirymgmt/etdt/FieldAuth.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Platform/src/main/java/com/gjdev/platform/persistance/secutirymgmt/etdt/Role.java" beforeDir="false" afterPath="$PROJECT_DIR$/Platform/src/main/java/com/gjdev/platform/persistance/secutirymgmt/etdt/Role.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Platform/src/main/java/com/gjdev/platform/persistance/secutirymgmt/etdt/RoleType.java" beforeDir="false" afterPath="$PROJECT_DIR$/Platform/src/main/java/com/gjdev/platform/persistance/secutirymgmt/etdt/RoleType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Platform/src/main/java/com/gjdev/platform/persistance/secutirymgmt/repo/EntityAuthRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/Platform/src/main/java/com/gjdev/platform/persistance/secutirymgmt/repo/EntityAuthRepositoryImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Platform/src/main/java/com/gjdev/platform/persistance/secutirymgmt/repo/EntityDefRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/Platform/src/main/java/com/gjdev/platform/persistance/secutirymgmt/repo/EntityDefRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Platform/src/main/java/com/gjdev/platform/persistance/secutirymgmt/repo/EntityDefRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/Platform/src/main/java/com/gjdev/platform/persistance/secutirymgmt/repo/EntityDefRepositoryImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Platform/src/main/java/com/gjdev/platform/persistance/secutirymgmt/repo/FieldAuthRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/Platform/src/main/java/com/gjdev/platform/persistance/secutirymgmt/repo/FieldAuthRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Platform/src/main/java/com/gjdev/platform/persistance/secutirymgmt/repo/FieldAuthRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/Platform/src/main/java/com/gjdev/platform/persistance/secutirymgmt/repo/FieldAuthRepositoryImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Platform/src/main/java/com/gjdev/platform/persistance/secutirymgmt/repo/FieldDefRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/Platform/src/main/java/com/gjdev/platform/persistance/secutirymgmt/repo/FieldDefRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Platform/src/main/java/com/gjdev/platform/persistance/secutirymgmt/repo/FieldDefRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/Platform/src/main/java/com/gjdev/platform/persistance/secutirymgmt/repo/FieldDefRepositoryImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Platform/src/main/java/com/gjdev/platform/persistance/secutirymgmt/repo/RoleRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/Platform/src/main/java/com/gjdev/platform/persistance/secutirymgmt/repo/RoleRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Platform/src/main/java/com/gjdev/platform/persistance/secutirymgmt/repo/RoleRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/Platform/src/main/java/com/gjdev/platform/persistance/secutirymgmt/repo/RoleRepositoryImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Platform/src/main/java/com/gjdev/platform/persistance/secutirymgmt/repo/RoleTypeRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/Platform/src/main/java/com/gjdev/platform/persistance/secutirymgmt/repo/RoleTypeRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Platform/src/main/java/com/gjdev/platform/persistance/secutirymgmt/repo/RoleTypeRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/Platform/src/main/java/com/gjdev/platform/persistance/secutirymgmt/repo/RoleTypeRepositoryImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,17 +50,36 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHomeTypeForPersistence" value="WRAPPER" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Maven.Platform [package].executor": "Run",
+    "Python.generateDtos.executor": "Run",
+    "Python.generateRepositories.executor": "Run",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "Cherry-picking in main",
-    "node.js.selected.package.tslint": "(autodetect)"
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/home/gj/Desktop/workspace/MyWorkSpace/E-commerce/DevScritps",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2551724"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/DevScritps" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.generateRepositories">
     <configuration default="true" type="JetRunConfigurationType">
       <module name="E-Commerce" />
       <method v="2">
@@ -96,6 +113,35 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="generateRepositories" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="DevScritps" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/DevScritps" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DevScritps/generateRepositories.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="ApiApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="API" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.gjdev.api.ApiApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="Tox" factoryName="Tox">
       <module name="E-Commerce" />
       <option name="ENV_FILES" value="" />
@@ -108,6 +154,45 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <method v="2" />
     </configuration>
+    <configuration default="true" type="tests" factoryName="Autodetect">
+      <module name="API" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Doctests">
+      <module name="API" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.generateRepositories" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="TaskManager">
     <servers />
