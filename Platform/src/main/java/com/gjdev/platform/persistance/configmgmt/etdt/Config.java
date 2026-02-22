@@ -12,6 +12,13 @@ public class Config extends NamedEntity {
 
     @Column(name = "VALUE",nullable = false)
     String value;
+    @ManyToOne(fetch = FetchType.LAZY) // changed from OneToOne
+    @JoinColumn(name = "type_id", nullable = false)
+    private ConfigType type;
+
+    @ManyToOne(fetch = FetchType.LAZY)
+    @JoinColumn(name = "group_id")
+    private ConfigGroup group;
 
     public String getValue() {
         return value;
@@ -21,4 +28,19 @@ public class Config extends NamedEntity {
         this.value = value;
     }
 
+    public ConfigType getType() {
+        return type;
+    }
+
+    public void setType(ConfigType type) {
+        this.type = type;
+    }
+
+    public ConfigGroup getGroup() {
+        return group;
+    }
+
+    public void setGroup(ConfigGroup group) {
+        this.group = group;
+    }
 }

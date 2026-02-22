@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="0c677e1d-dcc7-48ef-a91e-d6f00674b8d7" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/E-commerce.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/mappingPluginState.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DevScritps/DevScritps.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DevScritps/IOUtility.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DevScritps/generateDtos.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Platform/src/main/java/com/gjdev/platform/persistance/configmgmt/etdt/ConfigGroup.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Platform/src/main/java/com/gjdev/platform/persistance/configmgmt/etdt/ConfigGroupDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Platform/src/main/java/com/gjdev/platform/persistance/configmgmt/etdt/ConfigType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Platform/src/main/java/com/gjdev/platform/persistance/configmgmt/etdt/ConfigTypeDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Platform/src/main/java/com/gjdev/platform/persistance/identitymgmt/etdt/GenderDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Platform/src/main/java/com/gjdev/platform/persistance/identitymgmt/etdt/IdentityDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Platform/src/main/java/com/gjdev/platform/persistance/identitymgmt/etdt/IdentityTypeDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Platform/src/main/java/com/gjdev/platform/persistance/identitymgmt/etdt/UsersDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/E-Commerce.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/API/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/API/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/src/main/java/com/gjdev/api/ApiApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/API/src/main/java/com/gjdev/api/ApiApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/src/main/java/com/gjdev/api/web/ApiResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/API/src/main/java/com/gjdev/api/web/ApiResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/src/main/java/com/gjdev/api/web/idnmgmt/Controller/IdentityController.java" beforeDir="false" afterPath="$PROJECT_DIR$/API/src/main/java/com/gjdev/api/web/idnmgmt/Controller/IdentityController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Platform/src/main/java/com/gjdev/platform/persistance/base/etdt/BaseEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/Platform/src/main/java/com/gjdev/platform/persistance/base/etdt/BaseEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Platform/src/main/java/com/gjdev/platform/persistance/base/etdt/BaseEntityDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/Platform/src/main/java/com/gjdev/platform/persistance/base/etdt/BaseEntityDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Platform/src/main/java/com/gjdev/platform/persistance/configmgmt/etdt/Config.java" beforeDir="false" afterPath="$PROJECT_DIR$/Platform/src/main/java/com/gjdev/platform/persistance/configmgmt/etdt/Config.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Platform/src/main/java/com/gjdev/platform/persistance/configmgmt/repo/ConfigRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/Platform/src/main/java/com/gjdev/platform/persistance/configmgmt/repo/ConfigRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Platform/src/main/java/com/gjdev/platform/persistance/identitymgmt/etdt/GenderDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Platform/src/main/java/com/gjdev/platform/persistance/identitymgmt/etdt/IdentityDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Platform/src/main/java/com/gjdev/platform/persistance/identitymgmt/etdt/IdentityTypeDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Platform/src/main/java/com/gjdev/platform/persistance/identitymgmt/etdt/UsersDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Platform/src/main/java/com/gjdev/platform/persistance/identitymgmt/repo/IdentityRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/Platform/src/main/java/com/gjdev/platform/persistance/identitymgmt/repo/IdentityRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Platform/src/main/java/com/gjdev/platform/persistance/identitymgmt/repo/IdentityTypeRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/Platform/src/main/java/com/gjdev/platform/persistance/identitymgmt/repo/IdentityTypeRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Platform/src/main/java/com/gjdev/platform/persistance/identitymgmt/repo/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/Platform/src/main/java/com/gjdev/platform/persistance/identitymgmt/repo/UserRepository.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "Cherry-picking in main",
+    "node.js.selected.package.tslint": "(autodetect)"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="E-Commerce" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="E-Commerce" />
+      <option name="filePath" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <module name="E-Commerce" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="Tox" factoryName="Tox">
+      <module name="E-Commerce" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="TaskManager">
+    <servers />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

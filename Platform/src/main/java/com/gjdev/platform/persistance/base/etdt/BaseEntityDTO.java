@@ -1,17 +1,16 @@
 package com.gjdev.platform.persistance.base.etdt;
 
-import java.io.Serializable;
 import java.util.Date;
 
-/**
- * DTO for {@link BaseEntity}
- */
-public class BaseEntityDto implements Serializable {
-    private static final long serialVersionUID = 4126015811228425746L;
-    private Long id;
-    private Integer entityStatus = 0;
-    private Date changedOn;
-    private Date createdOn;
+public class BaseEntityDTO {
+
+    protected Long id;
+    protected Integer entityStatus = 0;
+
+    protected Date changedOn;
+
+
+    protected Date createdOn;
 
     public Long getId() {
         return id;
@@ -43,14 +42,5 @@ public class BaseEntityDto implements Serializable {
 
     public void setCreatedOn(Date createdOn) {
         this.createdOn = createdOn;
-    }
-
-    @Override
-    public String toString() {
-        return getClass().getSimpleName() + "(" +
-                "id = " + id + ", " +
-                "entityStatus = " + entityStatus + ", " +
-                "changedOn = " + changedOn + ", " +
-                "createdOn = " + createdOn + ")";
     }
 }

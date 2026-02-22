@@ -11,7 +11,6 @@ import java.util.Date;
 
 @MappedSuperclass
 public class BaseEntity {
-
     @CustomID
     @Id
     @Column(name = "ID", nullable = false, updatable = false, unique = true, length = 36)
@@ -58,6 +57,6 @@ public class BaseEntity {
     }
 
     public void setCreatedOn(Date createdOn) {
-        createdOn = createdOn;
+        this.createdOn = createdOn;
     }
 }

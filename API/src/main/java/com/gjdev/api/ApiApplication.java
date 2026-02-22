@@ -1,7 +1,6 @@
 package com.gjdev.api;
 
 import com.gjdev.platform.persistance.base.repo.BaseRepository;
-import com.gjdev.platform.persistance.base.repo.BaseRepositoryImpl;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cache.annotation.EnableCaching;

@@ -1,8 +1,8 @@
 package com.gjdev.api.web.idnmgmt.Controller;
 
 
-import com.gjdev.api.web.idnmgmt.Service.IdentityService;
 import com.gjdev.api.web.base.Controller.BaseController;
+import com.gjdev.api.web.idnmgmt.Service.IdentityService;
 import com.gjdev.platform.persistance.identitymgmt.etdt.Identity;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
